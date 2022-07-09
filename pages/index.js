@@ -2,14 +2,15 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Card from '../component/Card/Card'
 import Footer from '../component/Card/Footer'
-import styles from '../styles/Home.module.css'
+import Navbar from '../component/Card/Navbar'
+// import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
     <div >
-      <h1>Hello</h1>
-      <Card/>
-      <Footer/>
+     <Navbar/>
+      {/* <Card/> */}
+      {/* <Footer/> */}
     </div>
   )
 }
